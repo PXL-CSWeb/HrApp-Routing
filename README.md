@@ -58,3 +58,6 @@ public class EmployeeController
 ```
 > [!CAUTION]
 > Hou er rekening mee dat de *firstName* parameter niet altijd ingevuld zal zijn
+
+![search button](assets/searchbutton.png)
+![search button](assets/searchview.png)
