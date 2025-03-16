@@ -1,4 +1,4 @@
-﻿using HrApp.Models;
+﻿using HrApp.ViewModels;
 
 namespace HrApp.Repositories
 {

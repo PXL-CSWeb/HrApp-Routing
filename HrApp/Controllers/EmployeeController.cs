@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HrApp.Data;
-using HrApp.Models;
+using HrApp.ViewModels;
 using HrApp.Repositories;
 using HrApp.ViewModels;
 
@@ -139,18 +139,6 @@ namespace HrApp.Controllers
             }
             
             return RedirectToAction(nameof(Index));
-        }
-
-        public async Task<IActionResult> Search([FromForm] string firstName)
-        {
-            var employees = await _employeeRepository.GetAll();
-
-            var model = new SearchEmployeeViewModel();
-
-            if (!string.IsNullOrEmpty(firstName))
-                model.Employees = employees.Where(e => e.FirstName.Contains(firstName, StringComparison.OrdinalIgnoreCase)).ToList();
-
-            return View(model);
         }
     }
 }
