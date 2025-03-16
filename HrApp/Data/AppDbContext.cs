@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using HrApp.Models;
+using HrApp.ViewModels;
 
 namespace HrApp.Data
 {

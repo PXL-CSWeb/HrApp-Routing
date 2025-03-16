@@ -1,6 +1,6 @@
-﻿using HrApp.Models;
+﻿using HrApp.ViewModels;
 
-namespace HrApp.Models
+namespace HrApp.ViewModels
 {
     public class SearchEmployeeViewModel
     {

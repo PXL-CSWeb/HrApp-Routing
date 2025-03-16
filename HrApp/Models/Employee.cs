@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HrApp.Models
+namespace HrApp.ViewModels
 {
     public class Employee
     {

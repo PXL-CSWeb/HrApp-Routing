@@ -1,4 +1,4 @@
-﻿using HrApp.Models;
+﻿using HrApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

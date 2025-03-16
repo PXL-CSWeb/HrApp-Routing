@@ -1,5 +1,5 @@
 ﻿using HrApp.Data;
-using HrApp.Models;
+using HrApp.ViewModels;
 using Microsoft.EntityFrameworkCore;
 
 namespace HrApp.Repositories
